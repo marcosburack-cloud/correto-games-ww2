@@ -1,0 +1,151 @@
+header{
+    width: 100%;
+    background-color: darkgreen;
+    font-family: sans-serif;
+    padding: 10px ;
+    box-sizing: border-box;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-radius: 10px;
+    border:2px solid #ffbb0f;
+}
+.logo {
+
+  width: 90px;
+}
+span {
+  font-size: 20px;
+  color: #ffbb00c7;
+  font-family: sans-serif;
+  font-weight: 800;
+
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 15px;
+}
+header nav ul li a{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+header nav ul li a:hover{
+    color: #ffbb0f;
+}
+a{
+    text-decoration: none;
+}
+.banner img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-top: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  border: 2px solid #ffbb0f;
+  
+}
+.btn-jogar-banner {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: #ffbb0f;
+  color: black;
+  padding: 15px 25px;
+  font-size: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  
+}
+
+.btn-jogar-banner:hover {
+  background-color: darkgreen;
+}
+body{
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+}
+.introducao{
+    background-color: darkgreen ;
+    color:#ffbb00c7;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15px;
+    border: 2px solid #ffbb00c7;
+    box-shadow:0 8px 20px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+.sobre{
+    background-color:darkgreen ;
+    color: #ffbb00c7;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #ffbb0f;
+    margin-top: 15px;
+}
+.Sobrejogo{
+    background-color: darkgreen;
+    color: #ffbb00c7;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #ffbb0f;
+    box-shadow:0 8px 20px rgba(0,0,0,0.3);
+}
+.fotodojogo img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    border: 2px solid #ffbb0f;
+    box-shadow:0 8px 20px rgba(0,0,0,0.3) ;
+}
+.brasilguerra img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    border: 2px solid #ffbb0f;
+    box-shadow:0 8px 20px rgba(0,0,0,0.3) ;
+    margin-top: 15px;
+}
+footer{
+    background-color: darkgreen;
+    color: #ffbb0f;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    width: 100%;
+    border:2px solid #ffbb0f;
+    box-shadow:0 8px 20px rgba(0,0,0,0.3) ;
+
+}
+footer nav ul{
+    list-style: none;
+}
+footer nav ul li{
+    display: inline-block;
+    margin: 15px;
+}
+footer nav ul li a{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+footer nav ul li a:hover{
+    color: #ffbb0f;
+}
